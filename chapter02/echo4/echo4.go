@@ -29,4 +29,4 @@ a/b/c%
 a/b/c
 ➜  echo4 git:(master) ✗
 
- */
+*/
