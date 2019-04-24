@@ -1,5 +1,5 @@
 // tempconv 进行摄氏温度和华氏温度的转换计算
-package main
+package tempconv0
 
 type Celsius float64
 type Fahrenheit float64
@@ -10,12 +10,8 @@ const (
 	Boiling       Celsius = 100
 )
 
-func main() {
-
-}
-
 func CToF(c Celsius) Fahrenheit {
-	return Fahrenheit(c*9/6 + 32)
+	return Fahrenheit(c*9/5 + 32)
 }
 
 func FToC(f Fahrenheit) Celsius {
